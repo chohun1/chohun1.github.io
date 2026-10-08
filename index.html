@@ -1,51 +1,54 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="조훈의 포트폴리오. 소방·건축설비를 바탕으로 센서 데이터와 AI·IoT를 활용한 재난 안전을 공부합니다.">
-  <meta name="theme-color" content="#142b39">
-  <title>조훈 — 센서에서 안전까지</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Hun Cho — research assistant studying sensor integration, edge AI, IoT, and disaster safety. Projects, education, and experience.">
+<meta name="theme-color" content="#654085">
+<title>Hun Cho | Research &amp; Projects</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="academic.css">
+<link rel="alternate" hreflang="en" href="https://chohun1.github.io/">
+<link rel="alternate" hreflang="ko" href="https://chohun1.github.io/ko.html">
 </head>
 <body>
-  <a class="skip" href="#main">본문으로 바로가기</a>
-  <header class="header wrap">
-    <a class="wordmark" href="#main" aria-label="조훈 포트폴리오 처음으로">HOON<span> / 조훈</span></a>
-    <nav aria-label="주요 메뉴"><a href="#projects">프로젝트</a><a href="#experience">경력</a><a href="#about">소개</a><a href="#contact">연락</a></nav>
-  </header>
-  <main id="main">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy"><p class="eyebrow">FIRE SAFETY · SENSORS · AI & IoT</p>
-        <h1 id="hero-title">센서에서<br><span>안전까지.</span></h1>
-        <p class="intro">소방·건축설비에서 출발해<br>센서 데이터와 AI·IoT로 재난 안전을 공부하는<br><strong>연구보조원 조훈입니다.</strong></p>
-        <a class="button" href="#projects">참여한 프로젝트 보기</a>
-      </div>
-      <div class="hero-aside">
-        <p class="small-label">RESEARCH INTEREST</p>
-        <h2>감지하고, 판단하고,<br>필요한 동작으로 연결하기.</h2>
-        <ol class="signal-path" aria-label="관심 연구의 흐름"><li><span>01</span><div><strong>센서</strong><p>사람과 환경의 변화를 감지</p></div></li><li><span>02</span><div><strong>데이터와 AI</strong><p>서로 다른 신호를 함께 해석</p></div></li><li><span>03</span><div><strong>안전 대응</strong><p>감지·피난 안내와 기기 제어로 연결</p></div></li></ol>
-        <div class="current"><span>현재</span><p>케이아이씨텍 서울연구소 · 연구보조원<br>대림대학교 소방안전설비공학과 · 학업 병행</p></div>
-      </div>
-    </section>
-    <section id="projects" class="projects section wrap" aria-labelledby="projects-title">
-      <div class="section-head"><div><p class="eyebrow">SELECTED WORK</p><h2 id="projects-title">직접 참여한 일들</h2></div><p class="section-note">센서 연동부터 실제 기기 적용까지.<br>각 프로젝트에서 맡은 역할과 배운 점을 정리했습니다.</p></div>
-      <div class="featured">
-        <article class="project-card dark"><div class="project-top"><span>01 / AI · IoT</span><span>2025.11 – 현재</span></div><h3>필요할 때 깨어나는<br>엣지 AI</h3><p class="project-intro">1인 가구 안전 대응을 위한 센서·행동 인식·IoT 허브 연계 과제에 참여했습니다.</p><div class="tags"><span>Raspberry Pi 5</span><span>Hailo</span><span>ToF</span><span>Home Assistant</span></div><details open><summary>내 역할과 결과</summary><div class="detail-body"><h4>내 역할</h4><p>ToF 센서가 사람을 감지할 때만 Raspberry Pi·Hailo 행동 인식이 동작하는 구조를 제안하고 개발에 참여했습니다. 생활소리 데이터 준비와 학습 실행, Hailo 적용, Home Assistant 허브 구축·제어 시험도 수행했습니다.</p><h4>팀에서 확인한 결과</h4><p>엣지 기기에서 로컬 VLM 기반 생활 행동 인식을 확인하고, 여러 기기를 허브에 통합해 반복 제어 시험을 수행했습니다.</p><p class="note">코드 구현은 AI 코딩 도구의 지원을 받았습니다. 모델 구조 설계보다 센서 연동과 기기 적용, 전체 연결 흐름을 정하는 데 중심이 있었습니다.</p></div></details></article>
-        <article class="project-card light"><div class="project-top"><span>02 / FIRE SAFETY</span><span>2025 · 캡스톤디자인</span></div><h3>감지에서 대피까지,<br>방화문 연동 모형</h3><p class="project-intro">화재감지기에 방화문 잠금과 표시등을 연동하고, 사람이 갇히지 않도록 설계한 A.S.B.D 시제품입니다.</p><div class="tags"><span>8인 팀장</span><span>타이머 릴레이</span><span>대림테크페어 시연</span></div><details open><summary>내 역할과 결과</summary><div class="detail-body"><h4>내 역할</h4><p>팀장으로 자료 취합, 작품·도면 제작, 워크시트 작성을 맡았습니다.</p><h4>설계와 시연</h4><p>감지 후 3초 잠금 지연, 문 열림 상태에서는 잠금 대기, 비상버튼을 통한 잠금 해제를 구성했습니다. 7회차에 주제를 바꾼 뒤 남은 4회차 안에 완성해 대림테크페어에서 시연했습니다.</p><a class="text-link" href="https://youtu.be/HdenHqwU0Lk" target="_blank" rel="noopener noreferrer">A.S.B.D 시연 영상 보기 <span class="sr-only">(새 창)</span></a></div></details></article>
-      </div>
-      <div class="project-list">
-        <details><summary><span class="project-number">03</span><div><span class="small-label">PRODUCT RESEARCH</span><h3>벽부형 인필 AP의 통신·발열·난연 검토</h3><p>무선 기기를 실제 건물 안에 적용하기 위한 시험과 검토</p></div><span class="expand" aria-hidden="true">+</span></summary><div class="list-detail"><p>라우터 Full-mesh 및 iperf3 통신 시험, 벽체 내장 시 발열온도시험과 방열 대책 수립에 참여했습니다. 케이스 재질의 UL 94 V-0 요구사항을 검토하고 시험기관 의뢰 절차와 사전 자체점검 시험가이드를 정리했습니다.</p><p class="note">통신뿐 아니라 발열과 화재 안전 요건까지 함께 살피며, 소방 전공을 제품 연구에 적용한 경험입니다.</p></div></details>
-        <details><summary><span class="project-number">04</span><div><span class="small-label">2025.06 – 07 · FIELD TRAINING</span><h3>IoT 화재감지 현장실습</h3><p>센서 수집부터 MQTT 통신, 웹 시각화와 모의 제어까지</p></div><span class="expand" aria-hidden="true">+</span></summary><div class="list-detail"><p>Raspberry Pi와 온도·연기 센서로 수집한 데이터를 MQTT, JSON, 데이터베이스, 웹 대시보드로 연결했습니다. 팬·경보·스마트폰 알림과 서보모터 제연창의 모의 제어를 실습했습니다.</p><p class="note">센서 오류·통신 지연·전원 차단이 장치 동작에 미치는 영향을 배웠습니다.</p></div></details>
-        <details><summary><span class="project-number">05</span><div><span class="small-label">2025 · CONTROL SYSTEMS</span><h3>자동제어와 회로 설계</h3><p>입력 조건과 출력 동작을 회로와 설명 자료로 정리</p></div><span class="expand" aria-hidden="true">+</span></summary><div class="list-detail"><p>자동제어시스템 설계 과제의 조장으로 온도제어 회로 설계와 발표 자료 정리를 맡았습니다. 자기유지 회로, 저수조 수위제어, 아두이노 냉난방 제어, PLC 퀴즈 버저를 다뤘습니다.</p><a class="text-link" href="https://youtu.be/qc9wIVe6ptk" target="_blank" rel="noopener noreferrer">자동제어 과제 영상 보기 <span class="sr-only">(새 창)</span></a></div></details>
-        <details><summary><span class="project-number">06</span><div><span class="small-label">2020 · 2024 · CFD</span><h3>CFD 실내환경 분석</h3><p>공조기 운전 조건에 따른 오피스 온도와 기류 분포 비교</p></div><span class="expand" aria-hidden="true">+</span></summary><div class="list-detail"><p>2024년 전공동아리 회장으로 작품 총괄, 투명보드 가시화 모형 제작, 산업체 멘토와의 결과 검토를 맡았습니다. 공조기 1·2·3대 운전 조건을 비교하고 대림테크페어에 전시했습니다.</p><p class="note">해석 조건에 한정된 결과를 보며 실측값과의 비교, 센서 위치와 측정 조건의 기록을 다음 질문으로 삼았습니다.</p><div class="video-links"><a class="text-link" href="https://youtu.be/aNtJ4YEjU_Y" target="_blank" rel="noopener noreferrer">2학년 작품 영상</a><a class="text-link" href="https://youtu.be/BplhV3xu_zc" target="_blank" rel="noopener noreferrer">1학년 작품 영상</a><a class="text-link" href="https://youtu.be/wcaMt8eRfqs" target="_blank" rel="noopener noreferrer">1학년 활동 영상</a></div></div></details>
-      </div>
-    </section>
-    <section id="experience" class="section wrap experience" aria-labelledby="experience-title"><div><p class="eyebrow">EXPERIENCE</p><h2 id="experience-title">현장에서<br>이어온 경험</h2></div><div class="timeline"><article><p class="date">2025.11 – 현재</p><h3>케이아이씨텍 서울연구소</h3><p class="role">연구보조원 · 학업 병행</p><p>ToF 인체감지 연동, Hailo 기반 인식 실험, 생활소리 분류, Home Assistant 허브 구축 및 인필 AP 검토에 참여하고 있습니다.</p></article><article><p class="date">2025.06 – 2025.07 · 5주</p><h3>케이아이씨텍 서울연구소</h3><p class="role">현장실습</p><p>센서 수집, MQTT 통신, 웹 시각화, 설비 모의 제어를 실습한 뒤 같은 연구소에서 연구보조원으로 일하게 되었습니다.</p></article><article><p class="date">2024 여름</p><h3>DL E&C 계장설계팀</h3><p class="role">인턴</p><p>계장 회로도를 검토하고 오류를 확인했습니다.</p></article></div></section>
-    <section id="about" class="about-band"><div class="wrap section"><div class="section-head"><div><p class="eyebrow">ABOUT ME</p><h2>기기를 연결하며,<br>질문을 구체적으로.</h2></div><p class="about-intro">소방·건축설비를 전공했고, 동아리와 캡스톤디자인에서 팀을 이끌었습니다. 지금은 센서 융합과 재난 감지·피난 안내에 관심을 두고, 서로 다른 센서를 함께 쓰는 방법과 그 결과를 검증하는 방법을 배우고 있습니다.</p></div><div class="about-grid"><div><h3>기술과 경험</h3><dl class="skills"><div><dt>전공</dt><dd>소방·건축설비, 감지·경보·피난 설비, 공조, 방폭전기</dd></div><div><dt>설계</dt><dd>AutoCAD · Revit 중급 / PyroSim 기초</dd></div><div><dt>AI·IoT</dt><dd>Raspberry Pi, Hailo-8·10H, ToF, Home Assistant, MQTT, iperf3</dd></div><div><dt>학습 중</dt><dd>기본 Linux, 프로그래밍·머신러닝 기초. 생성된 코드를 읽고 설명하는 능력을 보완하고 있습니다.</dd></div></dl></div><div class="education"><h3>학력과 다음 목표</h3><article><p class="date">2026.03 – 2027.02 졸업 예정</p><h4>대림대학교 소방안전설비공학과</h4><p>전공심화 · 학사 과정<br>전공심화 1학기 평점 4.12 / 4.5</p></article><article><p class="date">2020.03 – 2026.02</p><h4>대림대학교 소방안전설비과</h4><p>3년제 전문학사 · 평균 평점 3.68 / 4.5</p></article><p class="next-step">2027년 3월 석사과정 진학을 준비하고 있습니다.<br>소방설비기사·건축설비기사 자격증을 준비 중입니다.</p></div></div></div></section>
-    <section id="contact" class="contact wrap section"><p class="eyebrow">CONTACT</p><h2>함께 나눌 이야기가 있다면.</h2><a class="email" href="mailto:hoon9489@gmail.com">hoon9489@gmail.com</a><p>연구와 프로젝트에 관한 이야기를 기다립니다.</p></section>
-  </main>
-  <footer class="wrap footer"><span>© 2026 조훈</span><span>센서 데이터 · AI·IoT · 재난 안전</span><a href="#main">맨 위로</a></footer>
-</body>
-</html>
+<a class="skip" href="#main">Skip to content</a>
+<div class="layout">
+<aside class="profile" aria-label="Profile">
+<div class="monogram" aria-hidden="true">HC</div>
+<h1>Hun Cho</h1><p class="korean-name" lang="ko">조훈</p>
+<p class="role">Research Assistant</p>
+<p class="affiliation">KICTech · Seoul Research Lab<br>Undergraduate at Daelim University</p>
+<a class="email" href="mailto:hoon9489@gmail.com">hoon9489@gmail.com</a>
+<div class="profile-links"><a href="https://github.com/chohun1">GitHub ↗</a><a href="mailto:hoon9489@gmail.com">Email ↗</a></div>
+<nav class="languages" aria-label="Language"><span class="current" aria-current="page">English</span><span aria-hidden="true">/</span><a href="ko.html" lang="ko" hreflang="ko">한국어</a></nav>
+<nav class="section-nav" aria-label="Sections"><a href="#about">About</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#skills">Skills</a></nav>
+</aside>
+<main id="main">
+<section id="about"><h2>About Me</h2>
+<p class="lede">Hello! I am a research assistant at <strong>KICTech's Seoul Research Lab</strong> and an undergraduate in fire safety systems engineering at <strong>Daelim University</strong>.</p>
+<p>My background is in fire protection and building services. I am interested in connecting sensor data, AI, and IoT to support disaster detection, evacuation guidance, and device control. My current work involves sensor integration, experiments on edge devices, and testing how the parts of a system work together.</p>
+<p>I am preparing to apply for a master's program starting in March 2027. I welcome conversations about research and projects in these areas.</p></section>
+<section id="interests"><h2>Research Interests</h2><ul class="interest-list"><li>Sensor integration and multimodal sensing</li><li>Edge AI and IoT for disaster safety</li><li>Fire detection, evacuation guidance, and building systems</li></ul></section>
+<section id="updates"><h2>Recent Updates</h2><dl class="news-list"><dt>Mar. 2026</dt><dd>Started the advanced bachelor's degree program in fire safety systems engineering at Daelim University.</dd><dt>Nov. 2025</dt><dd>Joined KICTech's Seoul Research Lab as a research assistant while continuing my studies.</dd><dt>2025</dt><dd>Led an eight-person capstone team and demonstrated an A.S.B.D fire-door control prototype at the Daelim Tech Fair.</dd></dl></section>
+<section id="projects"><h2>Selected Projects</h2>
+<article class="project"><div class="project-heading"><span class="number">01</span><h3>Sensor-triggered Edge AI for Home Safety</h3></div><p class="meta">Research project · Nov. 2025–present · Raspberry Pi 5, Hailo, ToF, Home Assistant</p><p>Contributed to a project connecting sensing, activity recognition, and an IoT hub for people living alone. I proposed and helped develop a workflow that activates Raspberry Pi–Hailo activity recognition when a time-of-flight (ToF) sensor detects a person.</p><p>My work included preparing everyday sound data, running training, deploying to Hailo, and setting up and testing Home Assistant. The team demonstrated local vision-language-model activity recognition on an edge device and repeated control of devices connected to the hub.</p><p class="note">Implementation used AI coding assistance. My contribution focused on sensor and device integration and system workflow, rather than model architecture design.</p></article>
+<article class="project"><div class="project-heading"><span class="number">02</span><h3>A.S.B.D: Fire Detection and Door-control Prototype</h3></div><p class="meta">Capstone design · 2025 · Team leader, 8 members</p><p>Led the development of a demonstration prototype connecting a fire detector, door lock, and indicator lights. I coordinated materials, built the model and drawings, and prepared project worksheets.</p><p>The control logic included a three-second delay before locking, an interlock preventing locking while the door was open, and an emergency release button. After changing topics in session seven, we completed the prototype in the four remaining sessions and demonstrated it at the Daelim Tech Fair.</p><div class="resource-links"><a href="https://youtu.be/HdenHqwU0Lk" target="_blank" rel="noopener noreferrer">Demo video ↗</a></div></article>
+<article class="project"><div class="project-heading"><span class="number">03</span><h3>In-wall Wireless Access Point Testing</h3></div><p class="meta">Product research · Connectivity, thermal behavior, and material requirements</p><p>Participated in full-mesh router and iperf3 tests, temperature testing for in-wall installation, and heat-dissipation planning. I reviewed UL 94 V-0 material requirements and organized test-lab submission procedures and a preliminary self-check guide.</p><p class="note">This work connected my fire-protection background with product evaluation across connectivity, temperature, and fire-safety requirements.</p></article>
+<article class="project"><div class="project-heading"><span class="number">04</span><h3>IoT Fire-detection Training System</h3></div><p class="meta">Field training · June–July 2025 · Raspberry Pi, MQTT, JSON</p><p>Connected temperature and smoke sensor readings to MQTT messaging, a database, and a web dashboard. Practiced simulated control of a fan, alarms, smartphone notifications, and a servo-driven smoke-vent window.</p><p class="note">The training highlighted how sensor errors, communication delays, and power loss affect device behavior.</p></article>
+<article class="project"><div class="project-heading"><span class="number">05</span><h3>Automatic Control and Circuit Design</h3></div><p class="meta">Course projects · 2025 · Team leader</p><p>Led a control-system design team, working on temperature-control circuits and presentation materials. Coursework covered self-holding circuits, tank water-level control, Arduino heating and cooling control, and a PLC quiz buzzer.</p><div class="resource-links"><a href="https://youtu.be/qc9wIVe6ptk" target="_blank" rel="noopener noreferrer">Project video ↗</a></div></article>
+<article class="project"><div class="project-heading"><span class="number">06</span><h3>CFD Analysis of an Indoor Environment</h3></div><p class="meta">Student projects · 2020 &amp; 2024 · Academic club president in 2024</p><p>Compared office temperature and airflow distributions with one, two, and three air-conditioning units operating. In 2024, I coordinated the club project, built a transparent visualization model, and reviewed results with an industry mentor before exhibiting at the Daelim Tech Fair.</p><p class="note">The limitations of simulation assumptions led me to consider comparison with measurements and careful documentation of sensor locations and measurement conditions.</p><div class="resource-links"><a href="https://youtu.be/aNtJ4YEjU_Y" target="_blank" rel="noopener noreferrer">Year 2 project ↗</a><a href="https://youtu.be/BplhV3xu_zc" target="_blank" rel="noopener noreferrer">Year 1 project ↗</a><a href="https://youtu.be/wcaMt8eRfqs" target="_blank" rel="noopener noreferrer">Year 1 activities ↗</a></div></article>
+</section>
+<section id="education"><h2>Education</h2>
+<article class="entry"><div class="entry-head"><h3>Daelim University</h3><time>Mar. 2026–Feb. 2027 (expected)</time></div><p>Bachelor's degree program, Fire Safety Systems Engineering<br>Advanced program following an associate degree</p><p class="sub">First-semester GPA: 4.12 / 4.5</p></article>
+<article class="entry"><div class="entry-head"><h3>Daelim University</h3><time>Mar. 2020–Feb. 2026</time></div><p>Associate degree, Fire Safety Systems<br>Three-year curriculum</p><p class="sub">Overall GPA: 3.68 / 4.5</p></article>
+</section>
+<section id="experience"><h2>Experience</h2>
+<article class="entry"><div class="entry-head"><h3>KICTech · Seoul Research Lab</h3><time>Nov. 2025–present</time></div><p><strong>Research Assistant</strong> · Alongside undergraduate studies</p><p class="sub">ToF sensing, Hailo recognition experiments, sound classification, Home Assistant integration, and in-wall access point evaluation.</p></article>
+<article class="entry"><div class="entry-head"><h3>KICTech · Seoul Research Lab</h3><time>June–July 2025</time></div><p><strong>Field Trainee</strong> · Five weeks</p><p class="sub">Sensor acquisition, MQTT communication, web visualization, and simulated equipment control.</p></article>
+<article class="entry"><div class="entry-head"><h3>DL E&amp;C · Instrumentation Design Team</h3><time>Summer 2024</time></div><p><strong>Intern</strong></p><p class="sub">Reviewed instrumentation circuit diagrams and checked for errors.</p></article>
+</section>
+<section id="skills"><h2>Skills &amp; Continuing Learning</h2><dl class="skill-list"><div><dt>Engineering</dt><dd>Fire protection, building services, detection and alarm systems, evacuation systems, HVAC, and explosion-protected electrical equipment.</dd></div><div><dt>Design tools</dt><dd>AutoCAD and Revit (intermediate); PyroSim (basic).</dd></div><div><dt>Devices &amp; tools</dt><dd>Raspberry Pi, Hailo-8/10H, ToF sensors, Home Assistant, MQTT, and iperf3.</dd></div><div><dt>Currently learning</dt><dd>Linux, programming, and machine-learning fundamentals, with a focus on understanding and explaining generated code.</dd></div></dl><p class="callout">Preparing for Korean Engineer Fire Protection Facilities and Engineer Building Facilities certification exams.</p></section>
+<footer><span>© 2026 Hun Cho · Updated October 2026</span><a href="#main">Back to top ↑</a></footer>
+</main></div>
+</body></html>

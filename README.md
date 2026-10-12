@@ -29,3 +29,11 @@ GitHub Pages에 게시할 수 있는 정적 포트폴리오입니다. 노션의 
 
 - [GitHub Pages 소개](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
 - [GitHub Actions로 게시](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+
+## 프로젝트 사진
+
+사용자의 요청에 따라 기존 프로젝트 영상에서 캡처한 실제 장면입니다. 사진과 설명은 원본 영상의 해당 시점으로 연결됩니다.
+
+- `project-fire-door-demo.jpg`: https://youtu.be/HdenHqwU0Lk?t=135 — Fire-door prototype with a detector, door lock, and indicator light.
+- `project-control.jpg`: https://youtu.be/qc9wIVe6ptk?t=119 — Wired control-training panel and fan assembly during a circuit demonstration.
+- `project-cfd.jpg`: https://youtu.be/aNtJ4YEjU_Y?t=130 — Completed transparent models for the indoor-environment project.

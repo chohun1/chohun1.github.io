@@ -37,3 +37,7 @@ GitHub Pages에 게시할 수 있는 정적 포트폴리오입니다. 노션의 
 - `project-fire-door-demo.jpg`: https://youtu.be/HdenHqwU0Lk?t=135 — Fire-door prototype with a detector, door lock, and indicator light.
 - `project-control.jpg`: https://youtu.be/qc9wIVe6ptk?t=119 — Wired control-training panel and fan assembly during a circuit demonstration.
 - `project-cfd.jpg`: https://youtu.be/aNtJ4YEjU_Y?t=130 — Completed transparent models for the indoor-environment project.
+
+## 연구자 포트폴리오 항목
+
+About Me, Research Interests, News, Selected Publications, Selected Projects, Education, Experience, Awards & Fellowships, Skills로 구성했습니다. 성적장학금은 사용자가 확인한 수상 이력입니다. 수여 기관·연도는 제공되지 않아 생략했습니다. 논문 정보는 아직 제공되지 않아 추후 업데이트 안내를 표시합니다.
